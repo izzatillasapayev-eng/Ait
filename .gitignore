@@ -1,0 +1,16 @@
+.build/
+build/
+dist/
+.swiftpm/
+*.xcodeproj/
+.DS_Store
+
+# стенд: записи голоса и результаты распознавания остаются только на твоём Mac
+bench/.venv/
+bench/recordings/
+bench/synthetic/
+bench/models/
+bench/results*.jsonl
+bench/measurements.json
+*.wav
+__pycache__/
