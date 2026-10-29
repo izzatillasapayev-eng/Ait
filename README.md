@@ -6,6 +6,10 @@
 Зажми клавишу, скажи фразу, отпусти — текст появится в любом поле: Telegram, браузер, Заметки, почта, редактор кода.
 Распознавание идёт прямо на Mac, без интернета: звук никуда не отправляется.
 
+<p align="center"><img src="docs/promo.gif" width="320" alt="Как работает Ait: зажми правый ⌥, скажи фразу — текст с пунктуацией появляется в поле"></p>
+
+<p align="center"><a href="https://github.com/izzatillasapayev-eng/Ait/releases/download/v1.0.0/Ait-promo-9x16.mp4">Видео 1080×1920 (MP4, 10 с)</a></p>
+
 - 🇷🇺 🇰🇿 **Русский и казахский в одной модели** — без переключения языка, смешанная речь тоже работает.
 - 🎯 **GigaAM-Multilingual** от Сбера — по нашим тестам и замерам авторов лучшая открытая модель для казахского и русского.
 - ✍️ **Пунктуация и заглавные буквы** — по желанию, одним пунктом в меню.
@@ -245,6 +249,7 @@ AIT_SIGN_IDENTITY="Apple Development: Имя Фамилия (XXXXXXXXXX)" script
 | `scripts/package-release.sh` | собирает `dist/Ait.zip` для релиза |
 | `scripts/prepare-models.py` | собирает архивы моделей из оригиналов с Hugging Face |
 | `scripts/make-icon.swift` | рисует иконку |
+| `scripts/make-promo.swift` | рендерит промо-ролик (MP4 9:16; с `AIT_STATIC_BG=1` — исходник для GIF) |
 | `scripts/uninstall.sh` | полностью удаляет Ait |
 
 Полезные команды:
